@@ -149,7 +149,6 @@ banking-compliance-rag/
 ├── create_embeddings.py               # Vector embeddings creation
 ├── hybrid_search.py                   # Hybrid retriever setup
 ├── rag.py               # RAG pipeline with LLM
-├── initialize.py                      # One-command setup script
 ├── diagnose.py                        # System diagnostics
 ├── inspect_chunks.py                  # Chunk inspection utility
 ├── test_rag_questions.py              # RAG testing script
@@ -185,7 +184,7 @@ MAX_TOKENS = 2000
 
 ### Adjust Answer Length
 
-Edit the RAG prompt in `rag_pipeline_groq.py`:
+Edit the RAG prompt in `rag.py`:
 ```python
 - Keep answer between 80-120 words (be concise and direct)
 ```
@@ -268,5 +267,6 @@ This tool is for **informational and educational purposes only**.
 - **Supported Regulators**: 4 (Basel, FATF, RBI, UAE)
 
 ---
+
 
 **Built using LangChain, ChromaDB, and Groq AI**
