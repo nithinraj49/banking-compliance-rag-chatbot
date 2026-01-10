@@ -148,16 +148,15 @@ banking-compliance-rag/
 ├── process_pdfs.py                    # PDF text extraction & chunking
 ├── create_embeddings.py               # Vector embeddings creation
 ├── hybrid_search.py                   # Hybrid retriever setup
-├── rag.py               # RAG pipeline with LLM
+├── rag.py                             # RAG pipeline with LLM
 ├── diagnose.py                        # System diagnostics
 ├── inspect_chunks.py                  # Chunk inspection utility
 ├── test_rag_questions.py              # RAG testing script
 ├── validate_boundaries.py             # Chunk boundary validation
 ├── requirements.txt                   # Python dependencies
-├── .env.example                       # Environment template
-├── .gitignore                         # Git ignore rules
-├── LICENSE                            # MIT License
-└── README.md                          # This file
+├── .env                               # Environment template
+
+
 ```
 
 ## ⚙️ Configuration
@@ -270,3 +269,4 @@ This tool is for **informational and educational purposes only**.
 
 
 **Built using LangChain, ChromaDB, and Groq AI**
+
