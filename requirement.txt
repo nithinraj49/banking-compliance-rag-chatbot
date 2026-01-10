@@ -1,0 +1,27 @@
+# Core Dependencies
+python-dotenv==1.0.1
+numpy==1.26.4
+tqdm==4.66.5
+
+# PDF Processing
+pypdf==5.1.0
+
+# Vector Database & Embeddings
+chromadb==0.5.23
+sentence-transformers==3.3.1
+
+# Search
+rank-bm25==0.2.2
+
+# LangChain
+langchain==0.3.15
+langchain-core==0.3.29
+langchain-community==0.3.14
+langchain-groq==0.2.1
+
+# UI
+streamlit==1.40.2
+
+# Optional: Evaluation
+# ragas==0.2.8
+# datasets==3.2.0
