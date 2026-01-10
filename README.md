@@ -1,6 +1,6 @@
 # 🏦 Banking Policy & Compliance RAG Chatbot
 
-An AI-powered Retrieval-Augmented Generation (RAG) chatbot for banking regulations and compliance queries. Built with LangChain, ChromaDB, and Groq AI.
+An AI-driven Retrieval-Augmented Generation (RAG) chatbot designed for banking regulation and compliance inquiries. Developed using LangChain, ChromaDB, Groq AI, and Streamlit, it enables intelligent querying across Basel, FATF, RBI, and UAE regulatory frameworks, with an in-depth approach to document chunking for improved accuracy and context retrieval.
 
 ![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.40-red.svg)
