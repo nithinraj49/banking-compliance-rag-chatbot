@@ -163,7 +163,7 @@ banking-compliance-rag/
 
 ### Modify Retrieval Parameters
 
-Edit `rag_pipeline_groq.py`:
+Edit `rag.py`:
 ```python
 result = rag_query(
     question=question_text,
@@ -174,7 +174,7 @@ result = rag_query(
 
 ### Change LLM Settings
 
-Edit `rag_pipeline_groq.py`:
+Edit `rag.py`:
 ```python
 GROQ_MODEL = "llama-3.3-70b-versatile"
 TEMPERATURE = 0.1  # Lower = more focused
@@ -269,4 +269,5 @@ This tool is for **informational and educational purposes only**.
 
 
 **Built using LangChain, ChromaDB, and Groq AI**
+
 
